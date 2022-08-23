@@ -1,0 +1,7 @@
+{
+  "identifier": "class_delegate_protocol",
+  "name": "Class Delegate Protocol",
+  "description": "Should delegate protocols be class-only so they can be weakly referenced?",
+  "example": "protocol FooDelegate: ={class}= {}",
+  "opt_in": false
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SwiftLint Config Generator</title>
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+        <script>
+            window.addEventListener("load", function(){
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#eaf7f7",
+                            "text": "#5c7291"
+                        },
+                        "button": {
+                            "background": "#1C6291",
+                            "text": "#d8d8d8"
+                        }
+                    },
+                    "theme": "classic"
+                })});
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img class="logo" src="images/mobile-quality-logo_small.png"></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="nav-selected"><a href="index.html">SwiftLint Configuration Generator</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <form id="swiftlint-config">
+            <div id="container">
+
+            </div>
+
+            <input type="submit" class="btn btn-primary btn-lg" value="Generate">
+        </form>
+
+        <footer>
+            <a href="imprint.html">Imprint</a> <br>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="js/syntax.browser.js"></script>
+        <script src="js/generator.js"></script>
+        <script src="js/helper.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "identifier": "empty_count",
+  "name": "Empty Count",
+  "description": "Should checking `isEmpty` over comparing `count` to zero be preferred?",
+  "example": "[Int]()={.isEmpty}=",
+  "opt_in": true
+}

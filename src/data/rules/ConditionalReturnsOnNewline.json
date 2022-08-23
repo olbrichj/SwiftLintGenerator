@@ -1,0 +1,7 @@
+{
+  "identifier": "conditional_returns_on_newline",
+  "name": "Conditional Returns on Newline",
+  "description": "Should conditional statements should always return on the next line?",
+  "example": "guard true else {\n={ return true}=\n}",
+  "opt_in": true
+}

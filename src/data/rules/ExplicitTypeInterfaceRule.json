@@ -1,0 +1,7 @@
+{
+  "identifier": "explicit_type_interface",
+  "name": "Explicit Type Interface",
+  "description": "Should properties have a type interface?",
+  "example": "class Foo {\n  var myVar={: Int? }== 0\n}",
+  "opt_in": true
+}

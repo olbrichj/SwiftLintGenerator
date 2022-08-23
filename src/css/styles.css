@@ -1,0 +1,167 @@
+/* begin navBar */
+.navbar {
+    height: 70px;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding: 10px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.navbar-nav {
+    padding-top: 29px;
+}
+
+.navbar-default .navbar-nav > li.nav-selected > a {
+    color: #111111;
+}
+
+.container-fluid {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* end navBar */
+
+/* begin rules */
+#swiftlint-config {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rule {
+    padding: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    border: 1px solid #E6E6E6;
+}
+
+.checked {
+    background-color: #E2ECF2;
+}
+
+.rule-content {
+    margin: 10px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.rule-content h3 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+/* begin rule table for input fields */
+div.table {
+    display: table;
+    border-collapse: collapse;
+    width: 60%;
+}
+div.tr {
+    display: table-row;
+}
+div.td {
+    display: table-cell;
+    border: none;
+    padding: 5px;
+}
+/* end rule table */
+/* end rules */
+
+/* Begin Syntax highlighting */
+.syntax {
+    background-color: #F2F1F1;
+    border: none;
+    white-space: pre;
+    line-height: 1.15;
+}
+
+.syntax .marker {
+    border-top: 1px solid #f0f0d0;
+    background-color: #ffffe0;
+    border-bottom: 1px solid #f0f0d0;
+}
+
+.syntax .anchor {
+    color: #cc3333;
+}
+
+.syntax .comment {
+    font-style: italic;
+    color: #999999;
+}
+
+.syntax .keyword {
+    font-weight: bold;
+    color: #6699cc;
+}
+
+.syntax .literal {
+    color: #c08030;
+}
+/* End Syntax highlighting */
+
+/* Begin Footer */
+footer {
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin: 50px auto 10px auto;
+}
+/* End Footer */
+
+/* begin checkbox */
+.foscheck-input {
+    display: none;
+}
+
+.foscheck label {
+    display: block;
+    width: 80px;
+    background: #ECECEC;
+    background-image: url(../static/Cross.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    min-height: 80px; /* for the latest browsers which support min-height */
+    height: 100% !important;
+}
+
+.foscheck-input:checked + label {
+    background: #1C6291;
+    background-image: url(../static/Check.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+/* end checkbox */
+
+/* Begin Imprint */
+.imprint-content {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* End Imprint */
+
+/* Begin Button */
+.btn {
+    width: 100%;
+    border-radius: 0px;
+    color: #d8d8d8;
+    font-size: 28px;
+    background: #1c6291;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 0px;
+}
+
+.btn:hover {
+    background: #3c82B1;
+    text-decoration: none;
+}
+/* End Button */

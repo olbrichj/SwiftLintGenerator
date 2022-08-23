@@ -1,0 +1,7 @@
+{
+  "identifier": "implicit_return",
+  "name": "Implicit Return",
+  "description": "Prefer implicit returns in closures?",
+  "example": "foo.map { ={$0 + 1}= }",
+  "opt_in": true
+}

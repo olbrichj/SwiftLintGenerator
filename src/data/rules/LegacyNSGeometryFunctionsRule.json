@@ -1,0 +1,7 @@
+{
+  "identifier": "legacy_nsgeometry_functions",
+  "name": "Legacy NSGeometry Functions",
+  "description": "Should struct extension properties and methods be preferred over legacy functions?",
+  "example": "rect.={width}=",
+  "opt_in": false
+}

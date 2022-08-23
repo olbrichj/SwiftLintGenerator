@@ -1,0 +1,7 @@
+{
+  "identifier": "force_try",
+  "name": "Force Try",
+  "description": "Should force tries be avoided?",
+  "example": "func a() throws {}; ={try!}= a()",
+  "opt_in": false
+}

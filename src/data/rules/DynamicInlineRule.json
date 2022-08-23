@@ -1,0 +1,7 @@
+{
+  "identifier": "dynamic_inline",
+  "name": "Dynamic Inline",
+  "description": "Should using 'dynamic' and '@inline(__always)' together be avoided?",
+  "example": "class C {\n={dynamic func}= f() {}}",
+  "opt_in": false
+}

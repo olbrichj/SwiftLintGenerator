@@ -1,0 +1,7 @@
+{
+  "identifier": "nimble_operator",
+  "name": "Nimble Operator",
+  "description":  "Should Nimble operator overloads be preferred over free matcher functions?",
+  "example": "expect(seagull.squawk) ={!=}= \"Hi\"\n",
+  "opt_in": true
+}

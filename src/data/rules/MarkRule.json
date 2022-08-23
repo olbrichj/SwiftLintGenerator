@@ -1,0 +1,7 @@
+{
+  "identifier": "mark",
+  "name": "Mark",
+  "description": "Should mark rule be in valid format?",
+  "example": "//={ }=MARK: comment",
+  "opt_in": false
+}

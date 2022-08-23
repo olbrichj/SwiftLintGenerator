@@ -1,0 +1,7 @@
+{
+  "identifier": "closure_spacing",
+  "name": "Closure Spacing",
+  "description": "Should Closure expressions have a single space inside each brace?",
+  "example": "[].map ({={ }=$0.description={ }=})",
+  "opt_in": true
+}

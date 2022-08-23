@@ -1,0 +1,7 @@
+{
+  "identifier": "first_where",
+  "name": "First Where",
+  "description": "Should using `.first(where:)` be preferred over `.filter { }.first` in collections?",
+  "example": "myList.first(={where:}= { $0 % 2 == 0 })",
+  "opt_in": true
+}

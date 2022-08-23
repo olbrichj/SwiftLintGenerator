@@ -1,0 +1,7 @@
+{
+  "identifier": "closure_end_indentation",
+  "name": "Closure End Indentation",
+  "description": "Should closure end have the same indentation as the line that started it?",
+  "example": "SignalProducer(values: [1, 2, 3])\n={   .}=startWithNext { number in\n       print(number)\n={   }}=",
+  "opt_in": true
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "legacy_cggeometry_functions",
+  "name": "Legacy CGGeometry Functions",
+  "description": "Should struct extension properties and methods be preferred over legacy functions?",
+  "example": "rect.={width}=",
+  "opt_in": false
+}

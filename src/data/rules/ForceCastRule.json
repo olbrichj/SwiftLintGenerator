@@ -1,0 +1,7 @@
+{
+  "identifier": "force_cast",
+  "name": "Force Cast",
+  "description": "Should force casts be avoided?",
+  "example": "NSNumber() ={as!}= Int",
+  "opt_in": false
+}

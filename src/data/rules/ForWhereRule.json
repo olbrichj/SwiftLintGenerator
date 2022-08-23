@@ -1,0 +1,7 @@
+{
+  "identifier": "for_where",
+  "name": "For Where",
+  "description": "Should `where` clauses be preferred over a single `if` inside a `for`?",
+  "example": "for user in users ={where}= user.id == 1 { }",
+  "opt_in": false
+}

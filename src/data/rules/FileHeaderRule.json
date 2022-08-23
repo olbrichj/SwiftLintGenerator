@@ -1,0 +1,25 @@
+{
+  "identifier": "file_header",
+  "name": "File Header",
+  "description": "Should Files should have consistent header comments?",
+  "example": "let foo = ={\"Copyright\"}=",
+  "opt_in": true,
+  "configuration": [
+    {
+      "name": "required_string",
+      "default": ""
+    },
+    {
+      "name": "required_pattern",
+      "default": ""
+    },
+    {
+      "name": "forbidden_string",
+      "default": ""
+    },
+    {
+      "name": "forbidden_pattern",
+      "default": ""
+    }
+  ]
+}

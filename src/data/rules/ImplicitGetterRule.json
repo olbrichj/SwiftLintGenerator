@@ -1,0 +1,7 @@
+{
+  "identifier": "implicit_getter",
+  "name": "Implicit Getter",
+  "description": "Should computed read-only properties avoid using the get keyword?",
+  "example": "var foo: Int {\n ={get}= {\n return 20 \n} \n}",
+  "opt_in": false
+}

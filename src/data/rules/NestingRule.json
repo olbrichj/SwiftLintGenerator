@@ -1,0 +1,7 @@
+{
+  "identifier": "nesting",
+  "name": "Nesting",
+  "description":  "Should types be nested at most 1 level and statements at most 5 levels deep?",
+  "example": "func func0() {\n  func func1() {\n    func func2() {\n      func func3() {\n        func func4() {\n          func func5() {\n            ={func func6() { }}=\n          }\n        }\n      }\n    }\n  }\n}\n",
+  "opt_in": false
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "notification_center_detachment",
+  "name": "Notification Center Detachment",
+  "description": "Should an object only remove itself as an observer in 'deinit'?",
+  "example": "class Foo { \n  ={deinit}= {\n    NSNotificationCenter.defaultCenter.removeObserver(self)\n  }\n}\n",
+  "opt_in": false
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "line_length",
+  "name": "Line Length",
+  "description": "Should lines not span too many characters?",
+  "example": "String(repeating: \"/\", count: ={121}=)",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "warning",
+      "default": "120"
+    },
+    {
+      "name": "error",
+      "default": "200"
+    },
+    {
+      "name": "ignores_urls",
+      "default": "false"
+    },
+    {
+      "name": "ignores_function_declarations",
+      "default": "false"
+    },
+    {
+      "name": "ignores_comments",
+      "default": "false"
+    }
+  ]
+}

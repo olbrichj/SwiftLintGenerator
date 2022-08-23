@@ -1,0 +1,7 @@
+{
+  "identifier": "force_unwrapping",
+  "name": "Force Unwrapping",
+  "description": "Should force unwrapping be avoided?",
+  "example": "let url = ={NSURL(string: query)!}=",
+  "opt_in": true
+}

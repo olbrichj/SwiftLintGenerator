@@ -1,0 +1,7 @@
+{
+  "identifier": "missing_docs",
+  "name": "Missing Docs",
+  "description": "Should public declarations be documented?",
+  "example": "={ }=\npublic func a() {}",
+  "opt_in": true
+}

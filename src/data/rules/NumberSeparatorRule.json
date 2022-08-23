@@ -1,0 +1,13 @@
+{
+  "identifier": "number_separator",
+  "name": "Number Separator",
+  "description": "Should underscores be used as thousand separator in large decimal numbers?",
+  "example": "let oneMillion = 1={_}=000={_}=000",
+  "opt_in": true,
+  "configuration": [
+    {
+      "name": "minimum_length",
+      "default": "0"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "empty_parameters",
+  "name": "Empty Parameters",
+  "description": "Should `() -> ` over `Void -> ` be preferred?",
+  "example": "func foo(completion: ={() -> Void}=)",
+  "opt_in": false
+}

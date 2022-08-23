@@ -1,0 +1,7 @@
+{
+  "identifier": "fatal_error_message",
+  "name": "Fatal Errror Message",
+  "description": "Should a fatalError call have a message.?",
+  "example": "func foo() {\n  ={fatalError(\"Foo\")}=\n}",
+  "opt_in": true
+}

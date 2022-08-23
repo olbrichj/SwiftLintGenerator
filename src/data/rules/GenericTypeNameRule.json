@@ -1,0 +1,7 @@
+{
+  "identifier": "generic_type_name",
+  "name": "Generic Type Name",
+  "description": "Should generic type names only contain alphanumeric characters, start with an uppercase character and span between 1 and 20 characters in length?",
+  "example": "func foo<={T}=>() {}",
+  "opt_in": false
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "closing_brace",
+  "name": "Closing Brace Spacing",
+  "description": "Should closing brace with closing parenthesis not have any whitespaces in the middle?",
+  "example": "[].map({ ={})}=",
+  "opt_in": false
+}

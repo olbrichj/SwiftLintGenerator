@@ -1,0 +1,7 @@
+{
+  "identifier": "explicit_init",
+  "name": "Explicit Init",
+  "description": "Should explicitly calling .init() be avoided?",
+  "example": "import Foundation; class C: NSObject { override ={init()}= { ={super.init()}= }}",
+  "opt_in": true
+}

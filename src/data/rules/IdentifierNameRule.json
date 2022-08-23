@@ -1,0 +1,7 @@
+{
+  "identifier": "identifier_name",
+  "name": "Identifier Name",
+  "description": "Should identifier names only contain alphanumeric characters and start with a lowercase character or only contain capital letters? In an exception to the above, variable names may start with a capital letter when they are declared static and immutable. Variable names should not be too long or too short.",
+  "example": "var ={myVar}= = 0",
+  "opt_in": false
+}

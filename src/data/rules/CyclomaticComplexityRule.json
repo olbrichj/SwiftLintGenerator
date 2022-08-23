@@ -1,0 +1,21 @@
+{
+  "identifier": "cyclomatic_complexity",
+  "name": "Cyclomatic Complexity",
+  "description": "Should complexity of function bodies be limited?",
+  "example": "func f1() {\nif true {\n={for _ in 1..5 { } }=}\nif false { }\n",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "warning",
+      "default": "10"
+    },
+    {
+      "name": "error",
+      "default": "20"
+    },
+    {
+      "name": "ignores_case_statements",
+      "default": "false"
+    }
+  ]
+}

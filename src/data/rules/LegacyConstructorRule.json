@@ -1,0 +1,7 @@
+{
+  "identifier": "legacy_constructor",
+  "name": "Legacy Constructor",
+  "description": "Should Swift constructors be preferred over legacy convenience functions?",
+  "example": "CGPoint={(x: 10, y: 10)}=",
+  "opt_in": false
+}

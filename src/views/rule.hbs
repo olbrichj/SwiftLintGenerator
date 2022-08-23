@@ -1,0 +1,28 @@
+<div id="rule-{{identifier}}" class="rule {{#unless opt_in}}checked{{/unless}}">
+    <div class="foscheck">
+        <input type="checkbox" id="{{identifier}}" class="foscheck-input" autocomplete="off" onclick='handleCheckboxChanged(this);' {{#unless opt_in}}checked{{/unless}} />
+        <label for="{{identifier}}"></label>
+    </div>
+    <div class="rule-content">
+        <h3>
+
+            <label for="{{identifier}}">{{name}}</label>
+
+        </h3>
+        <p class="rule-description">{{description}}</p>
+        <pre class="syntax"><code>{{syntax example}}</code></pre>
+
+        <p>
+            <div class="table">
+                {{#each configuration}}
+                    <div class="tr">
+                        <div class="td">{{this.name}}:</div>
+                        <div class="td"><input id="{{../identifier}}__{{this.name}}" type="text" value="{{this.default}}" /></div>
+                    </div>
+                {{/each}}
+            </div>
+        </p>
+
+    </div>
+</div>
+

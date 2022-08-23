@@ -1,0 +1,13 @@
+{
+  "identifier": "implicitly_unwrapped_optional",
+  "name": "Implicitly Unwrapped Optional",
+  "description": "Should implicitly unwrapped optionals be avoided when possible?",
+  "example": "let int: Int={!}= = 42",
+  "opt_in": true,
+  "configuration": [
+    {
+      "name": "mode",
+      "default": "allExceptIBOutlets"
+    }
+  ]
+}

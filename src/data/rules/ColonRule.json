@@ -1,0 +1,17 @@
+{
+  "identifier": "colon",
+  "name": "Colon",
+  "description": "Should colons be next to the identifier when specifying a type and next to the key in dictionary literals",
+  "example": "let ={abc:}= String=\"def\"",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "flexible_right_spacing",
+      "default": "false"
+    },
+    {
+      "name": "apply_to_dictionaries",
+      "default": "true"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "legacy_constant",
+  "name": "Legacy Constant",
+  "description": "Should struct-scoped constants be preferred over legacy global constants?",
+  "example": "CGRect.={infinite}=",
+  "opt_in": false
+}

@@ -1,0 +1,7 @@
+{
+  "identifier": "compiler_protocol_init",
+  "name": "Compiler Protocol Init",
+  "description": "Should the initializers declared in compiler protocols such as `ExpressibleByArrayLiteral` shouldn't be called directly?",
+  "example": "let set = ={Set(array)}=\n",
+  "opt_in": false
+}

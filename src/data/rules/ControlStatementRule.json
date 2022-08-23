@@ -1,0 +1,7 @@
+{
+  "identifier": "control_statement",
+  "name": "Control Statement",
+  "description": "Should if,for,while,do statements not wrap their conditionals in parentheses?",
+  "example": "if ={condition}= {",
+  "opt_in": false
+}

@@ -1,0 +1,17 @@
+{
+  "identifier": "large_tuple",
+  "name": "Large Tuple",
+  "description": "Shouldn't tuples have too many members? Create a custom type instead?",
+  "example": "let foo: (={Int, Int, Int}=)",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "warning",
+      "default": "2"
+    },
+    {
+      "name": "error",
+      "default": "3"
+    }
+  ]
+}

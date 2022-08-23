@@ -1,0 +1,7 @@
+{
+  "identifier": "comma",
+  "name": "Comma Spacing",
+  "description": "Should there be no space before and one after any comma?",
+  "example": "func abc(a: ={String, }=b: String) { }",
+  "opt_in": false
+}

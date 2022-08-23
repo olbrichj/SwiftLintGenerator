@@ -1,0 +1,7 @@
+{
+  "identifier": "leading_whitespace",
+  "name": "Leading Whitespace",
+  "description": "Should files not contain leading whitespace?",
+  "example": "={ }=//",
+  "opt_in": false
+}

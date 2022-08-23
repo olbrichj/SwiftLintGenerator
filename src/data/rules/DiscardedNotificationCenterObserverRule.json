@@ -1,0 +1,7 @@
+{
+  "identifier": "discarded_notification_center_observer",
+  "name": "Discarded Notification Center Observer",
+  "description": "When registing for a notification using a block, shhould the opaque observer that is returned be stored so it can be removed later?",
+  "example": "={let foo = }=nc.addObserver(forName: .NSSystemTimeZoneDidChange, object: nil, queue: nil) { }",
+  "opt_in": false
+}

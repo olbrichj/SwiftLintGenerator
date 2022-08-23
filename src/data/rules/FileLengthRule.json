@@ -1,0 +1,17 @@
+{
+  "identifier": "file_length",
+  "name": "File Line Length",
+  "description": "Should files not span too many lines.",
+  "example": "repeatElement(\"//\\n\", count: ={400}=).joined()",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "warning",
+      "default": "400"
+    },
+    {
+      "name": "error",
+      "default": "1000"
+    }
+  ]
+}

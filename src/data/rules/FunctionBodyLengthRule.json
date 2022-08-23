@@ -1,0 +1,17 @@
+{
+  "identifier": "function_body_length",
+  "name": "Function Body Length",
+  "description": "Should functions bodies not span too many lines?",
+  "example": "",
+  "opt_in": false,
+  "configuration": [
+    {
+      "name": "warning",
+      "default": "40"
+    },
+    {
+      "name": "error",
+      "default": "100"
+    }
+  ]
+}
